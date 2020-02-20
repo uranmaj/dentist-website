@@ -59,15 +59,17 @@ body {
 }
 
 #info {
-
+    display: flex;
+    height:auto;
+    
     img {
-       // display: block;
-        max-width: 100%;
+        max-width: 80%;
     }
     h2 {
         font-size: 70px;
         color: #222;
         font-family: "Playfair display", sans-serif;
+        
     }
     h3 {
         font-size: 35px;
@@ -78,16 +80,43 @@ body {
         padding-right: 20%;
     }
 
-    .column {
-        float: left;
-    
-
-    } 
     .small {
-        width: 40%;
+        flex:0.4;
+        padding-top: 100px;
     }
 
     .large {
-        width: 60%;
+        flex: 0.6;
+    }
+}
+
+#info2 {
+    display: flex;
+    height:auto;
+    
+    img {
+        max-width: 90%;
+        float: right;
+    }
+    h2 {
+        font-size: 70px;
+        color: #222;
+        font-family: "Playfair display", sans-serif;
+        
+    }
+    h3 {
+        font-size: 35px;
+        color: #333;
+        font-family: "Playfair display", sans-serif;
+    }
+
+    .small {
+        flex:0.4;
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+
+    .large {
+        flex: 0.6;
     }
 }

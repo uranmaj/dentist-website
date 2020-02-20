@@ -70,8 +70,15 @@ body {
   width: 80%;
 }
 
+#info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+}
+
 #info img {
-  max-width: 100%;
+  max-width: 80%;
 }
 
 #info h2 {
@@ -90,15 +97,54 @@ body {
   padding-right: 20%;
 }
 
-#info .column {
-  float: left;
-}
-
 #info .small {
-  width: 40%;
+  -webkit-box-flex: 0.4;
+      -ms-flex: 0.4;
+          flex: 0.4;
+  padding-top: 100px;
 }
 
 #info .large {
-  width: 60%;
+  -webkit-box-flex: 0.6;
+      -ms-flex: 0.6;
+          flex: 0.6;
+}
+
+#info2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+}
+
+#info2 img {
+  max-width: 90%;
+  float: right;
+}
+
+#info2 h2 {
+  font-size: 70px;
+  color: #222;
+  font-family: "Playfair display", sans-serif;
+}
+
+#info2 h3 {
+  font-size: 35px;
+  color: #333;
+  font-family: "Playfair display", sans-serif;
+}
+
+#info2 .small {
+  -webkit-box-flex: 0.4;
+      -ms-flex: 0.4;
+          flex: 0.4;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+#info2 .large {
+  -webkit-box-flex: 0.6;
+      -ms-flex: 0.6;
+          flex: 0.6;
 }
 /*# sourceMappingURL=style.css.map */
