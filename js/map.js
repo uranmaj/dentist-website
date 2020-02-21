@@ -1,5 +1,10 @@
 // leaflet map
-const mymap = L.map('mapid').setView([45.544798, 13.726774], 17);
+const mymap = L.map('mapid', {
+    maxZoom: 18,
+    minZoom: 10,
+    scrollWheelZoom: "center",
+    dragging: false,
+}).setView([45.544798, 13.726774], 17);
 
 const attribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 const tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution}).addTo(mymap);

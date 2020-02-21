@@ -1,3 +1,6 @@
+$red: #D02E29;
+$gray: #f2f2f2;
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -5,6 +8,31 @@ body {
 * {
     padding:0;
     margin:0;
+}
+
+h1 {
+    color: #111;
+    font-family: "Playfair display", sans-serif;
+}
+
+h2 {
+    color: #222;
+    font-family: "Playfair display", sans-serif;
+}
+
+h3 {
+    color: #333;
+    font-family: "Playfair display", sans-serif;
+}
+
+.spacer-small {
+    height: 50px;
+    width: 100%;
+}
+
+.spacer-large {
+    height: 140px;
+    width: 100%;
 }
 
 .navbar {
@@ -23,7 +51,7 @@ body {
         text-decoration: none;
         transition: 0.3s;
         &:hover {
-            color: red;
+            color: $red;
             padding-left: 10px;
             padding-bottom: 5px;
         }
@@ -41,17 +69,15 @@ body {
     }
     h1 {
         font-size: 70px;
-        color: #111;
     }
     h2 {
         font-size: 50px;
         font-weight: 500;
-        color: #222;
     }
 }
 
 #o-nas {
-    background-color: #f2f2f2;
+    background-color: $gray;
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
@@ -81,14 +107,10 @@ body {
     }
     h2 {
         font-size: 70px;
-        color: #222;
-        font-family: "Playfair display", sans-serif;
         
     }
     h3 {
         font-size: 35px;
-        color: #333;
-        font-family: "Playfair display", sans-serif;
     }
 
     p {
@@ -117,14 +139,10 @@ body {
     }
     h2 {
         font-size: 70px;
-        color: #222;
-        font-family: "Playfair display", sans-serif;
         
     }
     h3 {
         font-size: 35px;
-        color: #333;
-        font-family: "Playfair display", sans-serif;
     }
     p {
         font-size: 18px;
@@ -142,7 +160,54 @@ body {
     }
 }
 
-#mapid {
-    height: 400px;
+
+
+#pregled {
+    height:100vh;
+    background-color: $gray;
 }
 
+
+#mapid {
+    height: 400px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#info {
+    height:auto;
+    
+    h1 {
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .contact {
+        display: flex;
+        width: 70%;
+        background-color: $gray;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        p {
+            font-size: 30px;
+            text-align: center;
+            font-weight: 600;
+            i {
+                color: $red;
+            }
+        }
+
+        .small {
+            flex: 0.3;
+        }
+
+        .big {
+            flex: 0.6;
+        }
+    }
+        
+}

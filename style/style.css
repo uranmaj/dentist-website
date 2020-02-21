@@ -7,6 +7,31 @@ body {
   margin: 0;
 }
 
+h1 {
+  color: #111;
+  font-family: "Playfair display", sans-serif;
+}
+
+h2 {
+  color: #222;
+  font-family: "Playfair display", sans-serif;
+}
+
+h3 {
+  color: #333;
+  font-family: "Playfair display", sans-serif;
+}
+
+.spacer-small {
+  height: 50px;
+  width: 100%;
+}
+
+.spacer-large {
+  height: 140px;
+  width: 100%;
+}
+
 .navbar {
   position: fixed;
   margin-left: 4.5%;
@@ -34,7 +59,7 @@ body {
 }
 
 .navbar a:hover {
-  color: red;
+  color: #D02E29;
   padding-left: 10px;
   padding-bottom: 5px;
 }
@@ -53,13 +78,11 @@ body {
 
 #domov h1 {
   font-size: 70px;
-  color: #111;
 }
 
 #domov h2 {
   font-size: 50px;
   font-weight: 500;
-  color: #222;
 }
 
 #o-nas {
@@ -103,14 +126,10 @@ body {
 
 #storitve h2 {
   font-size: 70px;
-  color: #222;
-  font-family: "Playfair display", sans-serif;
 }
 
 #storitve h3 {
   font-size: 35px;
-  color: #333;
-  font-family: "Playfair display", sans-serif;
 }
 
 #storitve p {
@@ -146,14 +165,10 @@ body {
 
 #storitve2 h2 {
   font-size: 70px;
-  color: #222;
-  font-family: "Playfair display", sans-serif;
 }
 
 #storitve2 h3 {
   font-size: 35px;
-  color: #333;
-  font-family: "Playfair display", sans-serif;
 }
 
 #storitve2 p {
@@ -175,7 +190,59 @@ body {
           flex: 0.6;
 }
 
+#pregled {
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
 #mapid {
   height: 400px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#info {
+  height: auto;
+}
+
+#info h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+#info .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  background-color: #f2f2f2;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#info .contact p {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+#info .contact p i {
+  color: #D02E29;
+}
+
+#info .contact .small {
+  -webkit-box-flex: 0.3;
+      -ms-flex: 0.3;
+          flex: 0.3;
+}
+
+#info .contact .big {
+  -webkit-box-flex: 0.6;
+      -ms-flex: 0.6;
+          flex: 0.6;
 }
 /*# sourceMappingURL=style.css.map */
