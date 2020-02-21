@@ -1,6 +1,6 @@
 // Add smooth scrolling to all links
 $(document).ready(function(){
-    $(".navbar a").on('click', function(event) {
+  $(".navbar a").on('click', function(event) {
     if (this.hash !== "") {
       event.preventDefault();
   
@@ -12,8 +12,8 @@ $(document).ready(function(){
   
 
         window.location.hash = hash;
-        });
-      } 
-    });
+      });
+    } 
+  });
 
-  })
+})
