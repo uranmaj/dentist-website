@@ -62,7 +62,7 @@ body {
   color: #222;
 }
 
-#storitve {
+#preview {
   background-color: #f2f2f2;
   max-width: 1440px;
   margin-left: auto;
@@ -81,7 +81,7 @@ body {
   margin-bottom: 140px;
 }
 
-#storitve p {
+#preview p {
   max-width: 700px;
   padding-left: auto;
   padding-right: auto;
@@ -90,34 +90,34 @@ body {
   font-size: 18px;
 }
 
-#info {
+#storitve {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: auto;
 }
 
-#info img {
+#storitve img {
   max-width: 80%;
 }
 
-#info h2 {
+#storitve h2 {
   font-size: 70px;
   color: #222;
   font-family: "Playfair display", sans-serif;
 }
 
-#info h3 {
+#storitve h3 {
   font-size: 35px;
   color: #333;
   font-family: "Playfair display", sans-serif;
 }
 
-#info p {
+#storitve p {
   font-size: 18px;
 }
 
-#info .small {
+#storitve .small {
   -webkit-box-flex: 0.4;
       -ms-flex: 0.4;
           flex: 0.4;
@@ -126,41 +126,41 @@ body {
   padding-right: 10vw;
 }
 
-#info .large {
+#storitve .large {
   -webkit-box-flex: 0.6;
       -ms-flex: 0.6;
           flex: 0.6;
 }
 
-#info2 {
+#storitve2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: auto;
 }
 
-#info2 img {
+#storitve2 img {
   max-width: 90%;
   float: right;
 }
 
-#info2 h2 {
+#storitve2 h2 {
   font-size: 70px;
   color: #222;
   font-family: "Playfair display", sans-serif;
 }
 
-#info2 h3 {
+#storitve2 h3 {
   font-size: 35px;
   color: #333;
   font-family: "Playfair display", sans-serif;
 }
 
-#info2 p {
+#storitve2 p {
   font-size: 18px;
 }
 
-#info2 .small {
+#storitve2 .small {
   -webkit-box-flex: 0.4;
       -ms-flex: 0.4;
           flex: 0.4;
@@ -169,7 +169,7 @@ body {
   padding-left: 10vw;
 }
 
-#info2 .large {
+#storitve2 .large {
   -webkit-box-flex: 0.6;
       -ms-flex: 0.6;
           flex: 0.6;
