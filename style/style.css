@@ -50,6 +50,7 @@ h3 {
 }
 
 .navbar a {
+  font-size: 18px;
   color: #111;
   font-weight: 700;
   padding-left: 0;
@@ -102,15 +103,25 @@ h3 {
           align-items: center;
   margin-top: 140px;
   margin-bottom: 140px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #o-nas p {
+  padding-top: 100px;
   max-width: 700px;
   padding-left: auto;
   padding-right: auto;
-  padding-top: 100px;
   padding-bottom: 100px;
   font-size: 18px;
+}
+
+#o-nas h2 {
+  padding-top: 50px;
+  font-size: 50px;
+  font-weight: 500;
 }
 
 #storitve {
@@ -236,6 +247,8 @@ h3 {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 #info {
@@ -258,6 +271,8 @@ h3 {
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 #info .contact p {
@@ -280,5 +295,10 @@ h3 {
   -webkit-box-flex: 0.6;
       -ms-flex: 0.6;
           flex: 0.6;
+}
+
+.footer {
+  height: 30vh;
+  background-color: #333;
 }
 /*# sourceMappingURL=style.css.map */
