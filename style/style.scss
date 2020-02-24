@@ -162,9 +162,38 @@ h3 {
 
 
 
-#pregled {
-    height:100vh;
+#moja-pot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
     background-color: $gray;
+
+    .column {
+        flex: 0.5;
+    }
+
+    img {
+        width: 70%;
+        padding-right: 10vw;
+        float: right;
+    }
+
+    h2 {
+        font-size: 35px;
+        padding-left: 10vw;
+    }
+
+    h3 {
+        font-size: 20px;
+        padding-left: 10vw;
+
+    }
+
+    p {
+        font-size: 18px;
+        padding-left: 10vw;
+    }
 }
 
 

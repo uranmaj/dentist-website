@@ -190,9 +190,45 @@ h3 {
           flex: 0.6;
 }
 
-#pregled {
-  height: 100vh;
+#moja-pot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90vh;
   background-color: #f2f2f2;
+}
+
+#moja-pot .column {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+}
+
+#moja-pot img {
+  width: 70%;
+  padding-right: 10vw;
+  float: right;
+}
+
+#moja-pot h2 {
+  font-size: 35px;
+  padding-left: 10vw;
+}
+
+#moja-pot h3 {
+  font-size: 20px;
+  padding-left: 10vw;
+}
+
+#moja-pot p {
+  font-size: 18px;
+  padding-left: 10vw;
 }
 
 #mapid {
